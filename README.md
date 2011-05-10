@@ -21,7 +21,7 @@ Note: You'll need to pass the times based on the 24 hour clock, pre-adjusted to 
 
 ### ti.eventkit.function
 
-newEvent(START_DATE, END_DATE, TITLE,LOCATION, NOTE);
+  newEvent(START_DATE, END_DATE, TITLE,LOCATION, NOTE);
 
 ### ti.eventkit.property
 
@@ -29,16 +29,16 @@ None.
 
 ## Usage
 
-Titanium.event = require('ti.eventkit');
-var results = Titanium.event.newEvent('2011-05-18 01:30:00 GMT','2011-05-18 05:00:00 GMT','Scotts BDay!','Our house','If this works, say W00t!');
-Titanium.API.log(results);
+  Titanium.event = require('ti.eventkit');
+  var results = Titanium.event.newEvent('2011-05-18 01:30:00 GMT','2011-05-18 05:00:00 GMT','Scotts BDay!','Our house','If this works, say W00t!');
+  Titanium.API.log(results);
 
-// Returns
-[OBJ-C] arg1 is: 2011-05-18 01:30:00 GMT
-[OBJ-C] arg2 is: 2011-05-18 05:00:00 GMT
-[OBJ-C] arg3 is: Scotts BDay!
-[OBJ-C] arg4 is: Our house
-[OBJ-C] arg5 is: If this works, say W00t!
+  // Returns
+  [OBJ-C] arg1 is: 2011-05-18 01:30:00 GMT
+  [OBJ-C] arg2 is: 2011-05-18 05:00:00 GMT
+  [OBJ-C] arg3 is: Scotts BDay!
+  [OBJ-C] arg4 is: Our house
+  [OBJ-C] arg5 is: If this works, say W00t!
 
 
 ## Author
